@@ -1,16 +1,12 @@
 # Elena Iakovenko
 
-==========================================================
-
 ## Contact information
 
-**Phone:** +1 917 341 3476
-**Email:** myone72@yahoo.com
-**Telegram:** @ElenaMyOne
-**Website:** [www.myonewebdevelop.com](https://www.myonewebdevelop.com/)
+_Phone:_ +1 917 341 3476
+_Email:_ myone72@yahoo.com
+_Telegram:_ @ElenaMyOne
+_Website:_ [www.myonewebdevelop.com](https://www.myonewebdevelop.com/)
 [LinkedIn](https://www.linkedin.com/in/elena-iakovenko-54319115a/)
-==========================================================
-==========================================================
 
 ## About
 
@@ -19,8 +15,6 @@ I am highly motivated to start working as a Frontend Developer. I greatly enjoy 
 Recently I'm working as a freelancer and already developed several projects. And I’m looking forward to a part-time position as a Frontend Developer to start my professional career.
 
 Recently I'm working as a freelancer and already developed several projects. And I’m looking forward to a part-time position as a Frontend Developer to start my professional career.
-
-==========================================================
 
 ## Skills and Proficiency
 
@@ -31,8 +25,6 @@ Recently I'm working as a freelancer and already developed several projects. And
 - Node.js basic
 - Figma, Avocode, Adobe Photoshop
 - JIRA, Bugzilla
-
-==========================================================
 
 ## Code example
 
@@ -48,8 +40,6 @@ function add(num1, num2) {
    return parseInt(num1);
 }
 ```
-
-==========================================================
 
 ## Work experience
 
@@ -77,8 +67,6 @@ Layout practice projects with adaptive. Only HTML, CSS (SASS), and JS were used:
 
 7. [Prime-One](https://elena-myone.github.io/Prime-One/)
 
-==========================================================
-
 ## Courses
 
 - JavaScript Manual on learnjavascript.ru (in progress)
@@ -86,8 +74,6 @@ Layout practice projects with adaptive. Only HTML, CSS (SASS), and JS were used:
 - Udemy (in progress)
 - LinkedIn Learning (in progress)
 - FreeCodeCamp (in progress)
-
-==========================================================
 
 ## Languages
 
