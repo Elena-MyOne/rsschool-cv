@@ -1,0 +1,50 @@
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #f83da1;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 50%, 50%;
+  grid-template-rows: repeat(1fr);
+  grid-template-areas: "photo about" "contact experience" "skills code" "courses languages";
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  background-color: #faf5f5;
+  padding: 0px 10px;
+  line-height: 120%;
+}
+
+.photo {
+  grid-area: photo;
+  background-color: #ebe6e6;
+}
+
+.about {
+  grid-area: about;
+}
+
+.contact {
+  grid-area: contact;
+  background-color: #ebe6e6;
+}
+
+.skills {
+  grid-area: skills;
+  background-color: #ebe6e6;
+}
+
+.experience {
+  grid-area: experience;
+}
+
+.courses {
+  grid-area: courses;
+}
+
+.languages {
+  grid-area: languages;
+}

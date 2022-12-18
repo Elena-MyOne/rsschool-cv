@@ -1,0 +1,18 @@
+.header {
+  background-color: #faf5f5;
+  text-align: center;
+  padding: 40px 0px;
+
+  &__title {
+    font-size: 32px;
+    color: #f83da1;
+    font-weight: 500;
+    @media (max-width: $md3) {
+      font-size: 24px;
+      padding: 20px 0px;
+    }
+    @media (max-width: $md4) {
+      font-size: 18px;
+    }
+  }
+}

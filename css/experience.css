@@ -1,0 +1,13 @@
+.experience {
+  padding: 0px 0px 20px 40px;
+}
+.experience__item {
+  padding: 0px 0px 5px 0px;
+}
+.experience__item a {
+  color: #ee6d0b;
+  transition: all 0.3s ease 0s;
+}
+.experience__item a:hover {
+  color: #dd9258;
+}

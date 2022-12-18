@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+$minWidth: 320px;
+$maxWidth: 1000;
+
+$fontFamily: Montserrat;
+$fontSize: 16;
+
+$mainColor: #222222;
+$bgc: #ffffff;
+
+$md1:$maxWidth + 12px;
+$md2:992.98px;
+$md3:767.98px;
+$md4:479.98px;
+
+@import "reset.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  color: $mainColor;
+  background: $bgc;
+  font-family: $fontFamily;
+  @media (max-width: $md3){
+    &.lock{
+      overflow: hidden;
+    }
+  }
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.root{
+	min-height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+  font-size: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container{max-width: $maxWidth + px; margin: 0 auto;width: 100%;padding: 0 0px;
+	@media (max-width: $md1){max-width: 970px;}
+	@media (max-width: $md2){max-width: 750px;}
+	@media (max-width: $md3){max-width: none;padding: 0 10px;}
+}
+
+@import "main.scss";
+@import "header.scss";
+@import "photo.scss";
+@import "about.scss";
+@import "contact.scss";
+@import "experience.scss";
+@import "skills.scss";
+@import "code.scss";
+@import "courses.scss";
+@import "languages.scss";
+@import "footer.scss";
