@@ -1,15 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elena Iakovenko</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="header"></header>
-    <main class="contant"></main>
-    <footer class="footer"></footer>
+    <div class="root">
+      <header class="header container">
+        <h1 class="header__title">Elena Iakovenko</h1>
+      </header>
+      <main class="content container">
+        <nav class="contact">
+          <ul class="contact__items">
+            <li class="contact__item">Email: <a href="mailto:myone72@yahoo.com" target="_blank">myone72@yahoo.com</a></li>
+            <li class="contact__item">Telegram: <a href="#">@ElenaMyOne</a></li>
+            <li class="contact__item">Website: <a href="https://www.myonewebdevelop.com/" target="_blank">www.myonewebdevelop.com</a></li>
+            <li class="contact__item"><a href="https://www.linkedin.com/in/elena-iakovenko-54319115a/?original_referer=https%3A%2F%2Felena-myone.github.io%2F" target="_blank">LinkedIn</a></li>
+            <li class="contact__item">Discord: <a href="">Elena-myone</a></li>
+          </ul>
+        </nav>
+        <section class="about">
+          <h2 class="about__title title">About Me</h2>
+          <p class="about__text">I am highly motivated to start working as a Frontend Developer. I greatly enjoy developing sites and using new programming skills. Fortunately, I finally discovered very interesting and highly attractive IT world that provides such great opportunities to realize myself.</p>
+          <p class="about__text">Recently I’m working as a freelancer and already developed several projects. And I’m looking forward to a part-time position as a Frontend Developer to start my professional career.</p>
+          <p class="about__text">Recently I’m working as a freelancer and already developed several projects. And I’m looking forward to a part-time position as a Frontend Developer to start my professional career.</p>
+        </section>
+        <div class="photo">
+          <img src="./images/1.jpg" alt="My photo">
+        </div>
+        <section class="skills">
+          <h2 class="skills__title title">Skills and Proficiency</h2>
+          <ul class="skills__items">
+            <li class="skills__item">HTML, CSS, JS, TS</li>
+            <li class="skills__item">SCSS (Sass), Bootstrap, BEM</li>
+            <li class="skills__item">Git, GitHub</li>
+            <li class="skills__item">GULP, Webpack, Prepros, npm, Command Line</li>
+            <li class="skills__item">Node.js basic</li>
+            <li class="skills__item">Figma, Avocode, Adobe Photoshop</li>
+            <li class="skills__item">JIRA, Bugzilla</li>
+          </ul>
+        </section>
+        <section class="code">
+          <h2 class="code__title title">Code example</h2>
+          <code class="code__text code__text-one">function add(num1, num2) { </code>
+          <code class="code__text">num1 = String(num1).split('').reverse() </code>
+          <code class="code__text">num2 = String(num2).split('').reverse() </code>
+          <code class="code__text">const max = Math.max(num1.length, num2.length) </code>
+          <code class="code__text">const str = []; </code>
+          <code class="code__text">for(let i = 0; i &lt max; i++) </code>
+          <code class="code__text code__text-three">str.push((parseInt(num1[i]) || 0) + (parseInt(num2[i]) || 0)) </code>
+          <code class="code__text">return parseInt(num1); </code>
+          <code class="code__text">str.push((parseInt(num1[i]) || 0) + (parseInt(num2[i]) || 0)) </code>
+          <code class="code__text code__text-one">} </code>
+        </section>
+        <section class="experience">
+          <h2 class="experience__title title">Work experience</h2>
+          <ol class="experience__items">
+            <li class="experience__item"><a href="http://www.mikesnow.us/" target="_blank">Mike Snow: journalism, writings, insights</a></li>
+            <li class="experience__item"><a href="http://pamelatwiggcoaching.com/" target="_blank">Pamela Twigg Coaching</a></li>
+            <li class="experience__item"><a href="http://www.myonewebdevelop.com/index.html" target="_blank">MyOne</a></li>
+            <li class="experience__item"><a href="https://elena-myone.github.io/codejam-eldritch/my-app/dist/" target="_blank">Eldritch</a></li>
+            <li class="experience__item"><a href="https://elena-myone.github.io/HistoricalGames/" target="_blank">Historical games</a></li>
+            <li class="experience__item"><a href="https://elena-myone.github.io/Relvise/" target="_blank">Relvise</a></li>
+            <li class="experience__item"><a href="https://elena-myone.github.io/Interior/index.html" target="_blank">Interior</a></li>
+            <li class="experience__item"><a href="https://rolling-scopes-school.github.io/elena-myone-JSFEPRESCHOOL2022Q2/travel/" target="_blank">Travel Portal</a></li>
+            <li class="experience__item"><a href="https://elena-myone.github.io/Prime-One/" target="_blank">Prime-One</a></li>
+          </ol>
+        </section>
+        <section class="courses">
+          <h2 class="courses__title title">Courses</h2>
+          <ul class="courses__items">
+            <li class="courses__item">JavaScript Manual on learnjavascript.ru</li>
+            <li class="courses__item">RS Schools Course (in progress)</li>
+            <li class="courses__item">Udemy (in progress)</li>
+            <li class="courses__item">LinkedIn Learning (in progress)</li>
+            <li class="courses__item">FreeCodeCamp (in progress)</li>
+          </ul>
+        </section>
+        <section class="languages">
+          <h2 class="languages__title title">Languages</h2>
+          <ul class="languages__items">
+            <li class="languages__item">English</li>
+            <li class="languages__item">Russian</li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer container">
+        <div class="footer__body">
+          <div class="footer__logo">
+            <a href="https://rs.school/js/"><img src="./images/rslogo.svg" alt="rslogo"></a>
+          </div>
+          <div class="footer__year">2022</div>
+          <div class="footer__github">
+            <a href="https://github.com/Elena-MyOne"><img src="./images/github.svg" alt="github link"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

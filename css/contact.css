@@ -1,0 +1,13 @@
+.contact {
+  padding: 20px 0px 0px 40px;
+}
+.contact__item {
+  padding: 0px 0px 5px 0px;
+}
+.contact__item a {
+  color: #ee6d0b;
+  transition: all 0.3s ease 0s;
+}
+.contact__item a:hover {
+  color: #dd9258;
+}
