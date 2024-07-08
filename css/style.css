@@ -1,0 +1,284 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside, section, code {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  min-width: 320px;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: Montserrat;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #222222;
+  background: #ffffff;
+  font-family: Montserrat;
+}
+@media (max-width: 767.98px) {
+  body.lock {
+    overflow: hidden;
+  }
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.root {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 0px;
+}
+@media (max-width: 1012px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992.98px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767.98px) {
+  .container {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #f83da1;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 50%, 50%;
+  grid-template-rows: repeat(1fr);
+  grid-template-areas: "photo about" "contact experience" "skills code" "courses languages";
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  background-color: #faf5f5;
+  padding: 0px 10px;
+  line-height: 120%;
+}
+
+.photo {
+  grid-area: photo;
+  background-color: #ebe6e6;
+}
+
+.about {
+  grid-area: about;
+}
+
+.contact {
+  grid-area: contact;
+  background-color: #ebe6e6;
+}
+
+.skills {
+  grid-area: skills;
+  background-color: #ebe6e6;
+}
+
+.experience {
+  grid-area: experience;
+}
+
+.courses {
+  grid-area: courses;
+}
+
+.languages {
+  grid-area: languages;
+}
+
+.header {
+  background-color: #faf5f5;
+  text-align: center;
+  padding: 40px 0px;
+}
+.header__title {
+  font-size: 32px;
+  color: #f83da1;
+  font-weight: 500;
+}
+@media (max-width: 767.98px) {
+  .header__title {
+    font-size: 24px;
+    padding: 20px 0px;
+  }
+}
+@media (max-width: 479.98px) {
+  .header__title {
+    font-size: 18px;
+  }
+}
+
+.photo {
+  max-width: 400px;
+  border-radius: 20px 20px 0 0;
+}
+.photo img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  padding: 20px 20px;
+}
+
+.about__text {
+  padding: 0px 0px 10px 0px;
+}
+
+.contact {
+  padding: 20px 0px 0px 40px;
+}
+.contact__item {
+  padding: 0px 0px 5px 0px;
+}
+.contact__item a {
+  color: #ee6d0b;
+  transition: all 0.3s ease 0s;
+}
+.contact__item a:hover {
+  color: #dd9258;
+}
+
+.experience {
+  padding: 0px 0px 20px 40px;
+}
+.experience__item {
+  padding: 0px 0px 5px 0px;
+}
+.experience__item a {
+  color: #ee6d0b;
+  transition: all 0.3s ease 0s;
+}
+.experience__item a:hover {
+  color: #dd9258;
+}
+
+.skills {
+  padding: 0px 0px 0px 40px;
+  max-width: 400px;
+  border-radius: 0 0 20px 20px;
+}
+.skills__item {
+  padding: 0px 0px 5px 0px;
+}
+
+.code__text {
+  padding: 0px 0px 0px 20px;
+}
+.code__text-one {
+  padding: 0px 0px 0px 0px;
+}
+.code__text-three {
+  padding: 0px 0px 0px 40px;
+}
+
+.courses {
+  padding: 40px 0px 40px 40px;
+  max-width: 400px;
+  border-radius: 0 0 20px 20px;
+}
+.courses__item {
+  padding: 0px 0px 5px 0px;
+}
+
+.languages {
+  padding: 40px 0px 40px 40px;
+}
+.languages__item {
+  padding: 0px 0px 5px 0px;
+}
+
+.footer {
+  background-color: #ebe6e6;
+  padding: 20px 0px;
+}
+.footer__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.footer__logo {
+  max-width: 70px;
+}
+.footer__logo img {
+  width: 100%;
+}

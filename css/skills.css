@@ -1,0 +1,8 @@
+.skills {
+  padding: 0px 0px 0px 40px;
+  max-width: 400px;
+  border-radius: 0 0 20px 20px;
+}
+.skills__item {
+  padding: 0px 0px 5px 0px;
+}

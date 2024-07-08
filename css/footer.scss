@@ -1,0 +1,24 @@
+.footer {
+  background-color: #ebe6e6;
+  padding: 20px 0px;
+
+  &__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+
+  &__logo {
+    max-width: 70px;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__year {
+  }
+
+  &__github {
+  }
+}

@@ -1,0 +1,17 @@
+.contact {
+  padding:  20px 0px 0px 40px;
+  &__items {
+  }
+
+  &__item {
+    padding:  0px 0px 5px 0px;
+    
+    a {
+      color: #ee6d0b;
+      transition: all 0.3s ease 0s;
+      &:hover{
+        color: #dd9258
+      }
+    }
+  }
+}
